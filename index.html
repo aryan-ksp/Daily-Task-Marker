@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Task Tracker</h1>
+            <div class="theme-toggle">
+                <button id="themeToggle">Switch to Dark Mode</button>
+            </div>
+        </header>
+
+        <div class="task-dashboard">
+            <div class="task-stats">
+                <h2>Task Stats</h2>
+                <p id="totalTasks">Total Tasks: 0</p>
+                <p id="completedTasks">Completed: 0</p>
+                <p id="incompleteTasks">Incomplete: 0</p>
+            </div>
+
+            <div class="task-list">
+                <h2>Task List</h2>
+                <input type="text" id="taskInput" placeholder="Add a new task" />
+                <button id="addTaskButton">Add Task</button>
+                <ul id="taskItems"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="taskModal" class="task-modal">
+        <div class="modal-content">
+            <h3>Add Subtasks</h3>
+            <input type="text" id="subtaskInput" placeholder="Enter subtask" />
+            <button id="addSubtask">Add Subtask</button>
+            <ul id="subtaskList"></ul>
+            <button id="closeModal">Close</button>
+        </div>
+    </div>
+
+    <audio id="taskSound" src="task-sound.mp3"></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <div id="particles-js"></div>
+
+    <script src="script.js"></script>
+
+    <div class="footer">
+        <p>🎨✨ A creative task tracker project by Aryan Kashyap 🖤💻</p>
+    </div>
+    
+</body>
+</html>
