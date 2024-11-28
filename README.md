@@ -32,13 +32,13 @@ JavaScript (Vanilla): Interactivity and functionality.
 🚀 Setup Instructions Follow these steps to set up the project locally:
 
 Clone the Repository:
-git clone https://github.com/aryan-ksp/Singer-Gallery.git
+git clone https://github.com/aryan-ksp/Daily-Task-Marker
 
 Navigate to the Project Directory:
-cd Singer-Gallery
+cd Daily-Task-Marker
 
 Open the Project:
-Open gallery.html in your browser to view the project.
+Open index.html in your browser to view the project.
 
 How to Add Images
 Place your images in the images/ folder.
